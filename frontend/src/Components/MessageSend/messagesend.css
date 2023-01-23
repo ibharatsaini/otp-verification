@@ -1,0 +1,50 @@
+.modBox{
+    height: 200px;
+}
+.modBox  h3{
+    margin: 10px 0px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.messageBox{
+    border: 1px solid gray;
+    padding: 7px 5px;
+    margin: 30px 0px;
+}
+.rowButton{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.rowButton div{
+    width: 40%;
+    padding: 10px 5px;
+    background-color: cadetblue;
+    text-align: center;
+    cursor: pointer;
+}
+.return{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 650px) {
+    .modBox{
+        height: 280px;
+    }
+    .info span{
+        font-size: 17px;
+    }
+    .rowButton{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .rowButton div{
+        width: 100%;
+
+    }
+    
+}

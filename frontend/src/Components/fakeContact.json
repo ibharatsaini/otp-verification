@@ -1,0 +1,33 @@
+[
+    {
+        "id":"123",
+        "fullName":"Kisan Network",
+        "phoneNo" :9810153260
+    },
+    {
+        "id":"423",
+        "fullName":"Bharat saini",
+        "phoneNo" :9354670277
+    },
+    {
+        "id":"573",
+        "fullName":"fake Name",
+        "phoneNo" :7982626291
+    },
+    {
+        "id":"126",
+        "fullName":"testing",
+        "phoneNo" :7982626290
+    },
+    {
+        "id":"849",
+        "fullName":"Naman K",
+        "phoneNo" :9876543456
+    },
+    {
+        "id":"703",
+        "fullName":"Testing Name",
+        "phoneNo" :7982626290
+    }
+
+]

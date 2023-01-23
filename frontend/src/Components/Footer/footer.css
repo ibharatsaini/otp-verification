@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 200px;
+    
+}
+
+.colFoot{
+    display: flex;
+    gap: 20px;  
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.colFoot h2{
+    color: gray;
+}
+.colFoot span{
+    font-size: 16px;
+    color: black;
+}
+
+@media screen and (max-width: 650px) {
+    footer{
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .colFoot{
+        width: 70%;
+    }
+    
+}

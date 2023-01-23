@@ -1,0 +1,16 @@
+.composeButton{
+    box-shadow: 	5px 5px 4px 0px rgba(0,0,0,0.03),
+		13px 13px 10px -1px rgba(0,0,0,0.04),
+		30px 30px 24px 0px rgba(0,0,0,0.04),
+		43px 40px 37px 0px rgba(0,0,0,0.05);
+        border:	1px solid rgba(0,0,0,0.14);
+        border-radius:	3px;
+        text-align: center;
+        width: 80%;
+        padding: 10px ;
+        background-color: #b298dc;
+        margin: auto;
+        margin-top: 20px;
+        cursor: pointer;
+
+}
