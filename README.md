@@ -1,3 +1,8 @@
+# Live Website
+
+[Click here for live website](https://rich-pear-adder-garb.cyclic.app/)
+
+
 
 # Project Title
 
@@ -38,20 +43,14 @@ Clone the project
 Go to the project directory
 
 
-
-Install dependencies
-
-```cli
-  npm install
-```
-
 Start the server
 
 ```cli
   npm start
 ```
 
-Go to  http://localhost:8000 .
+
+Go to  http://localhost:8080 .
 ## FAQ
 
 #### If facing any issues while starting the app locally

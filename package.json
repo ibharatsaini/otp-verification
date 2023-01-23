@@ -10,12 +10,15 @@
     "twilio": "^3.84.1"
   },
   "scripts": {
-    "start": "cd frontend && npm install && npm run build && cd .. && npm install && node server.js"
+    "start": "node server.js"
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "16.x"
+  }
 }

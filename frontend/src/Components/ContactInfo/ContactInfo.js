@@ -1,11 +1,10 @@
 import React,{useEffect} from 'react'
 import { toast } from 'react-hot-toast'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import {  useNavigate, useParams } from 'react-router-dom'
 import { selectContact } from '../../reduxStore/actions/contacts.actions'
 import Black from '../Black/Black'
 import Button from '../Button/Button'
-import fake from '../fakeContact'
 import './contactinfo.css'
 function ContactInfo() {
     const {id} = useParams()
