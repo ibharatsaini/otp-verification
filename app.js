@@ -21,6 +21,7 @@ app.use("/api/v1/message",messagesRoutes)
 
 //For Production Only, Send the build
 if(process.env.NODE_ENV ==='production'){
+    console.log("running production code")
     app.use(express.static(path.join(__dirname,"./frontend/build")))
     app.get('*', (req, res) => {
          res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
