@@ -1,5 +1,6 @@
 .modBox{
     height: 200px;
+    max-width: 600px;
 }
 .sendMessage{
     text-align: center;

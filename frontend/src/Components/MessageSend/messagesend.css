@@ -1,5 +1,6 @@
 .modBox{
     height: 200px;
+    max-width: 600px;
 }
 .modBox  h3{
     margin: 10px 0px;
