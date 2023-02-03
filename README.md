@@ -1,12 +1,6 @@
 # Live Website
 
-[Click here for live website](https://rich-pear-adder-garb.cyclic.app/)
-
-
-
-# Project Title
-
-Please use recipient mobile number which is verified by Twilio. (To add you mobile number to account feel free contact me)
+[Click here for live website](https://food-recipe-production-cf3d.up.railway.app/)
 
 
 ## Environment Variables
@@ -15,10 +9,11 @@ To run this project, you will need to add the following environment variables to
 
 
 
-`TWILIO_ACCOUNT_SID`  TWILIO ACCOUNT SID provided by twilio
-`TWILIO_AUTH_TOKEN` TWILIO AUTH TOKEN provided by twilio itself.
+`DATABASE_URI`  DATABASE URL
+`JWT_EXPIRES` Number of days JWT Expires Example :- 5d.
 
-`NODE_ENV` Node Environment you are working on
+`JWT_SECRET` JWT secret
+`NODE_ENV`  production or development
 `PORT` PORT of your choice
 
 
@@ -28,10 +23,10 @@ To run this project, you will need to add the following environment variables to
 
 
 ```
-  cd frontend
+  cd backend
   npm install
-
-  cd ../backend
+  
+  cd frontend
   npm install
   
 ```
